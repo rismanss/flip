@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 768px;
+  min-height: 100vh;
+  flex-basis: 768px;
+  background: #f3f7f9;
+}
+
+@media only screen and (max-width: 600px) {
+  .layout {
+    display: block;
+  }
+}
